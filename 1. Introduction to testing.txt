@@ -1,0 +1,27 @@
+What is testing?
+---------------
+o Software testing is the process of finding errors in a software product before it is launched.
+o Validate functioning and features of software.
+
+--> Types of Testing:
+--------------------
+o Tester:
+    o Manual testing
+    o Automatic testing
+
+--> Testing by developers:
+--------------------------
+o Unit Testing: Testing individual units or components.
+o Integrated Testing: Testing between two units or component.
+o E-2-E Testing: Test start to end complete project.
+
+--> React Testing Tools:
+-----------------------
+o Jest Framework
+o React testing Library
+
+--> Where we will focus?
+-----------------------
+o Mostly we focus on Unit and Integrated Testing.
+o But we will try to cover some E-2-E testing topics.
+o React developer needs to do component testing mostly that come under Unit Testing.

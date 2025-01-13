@@ -1,0 +1,2 @@
+o we will write "npm run test" in the terminal.
+o Then we will write "a" to run all the test.
