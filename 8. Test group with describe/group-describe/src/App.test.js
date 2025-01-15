@@ -39,3 +39,54 @@ describe("input test group", () => {
 })
 
 
+// =====================================================================
+// describe.only()
+// it will run only this test, and skip all other
+// describe.only("UI test case group 2", () => {
+//   test('check the text 1', () => {
+//     render(<App />);
+//     const linkElement = screen.getByText(/Hello World/i);
+//     expect(linkElement).toBeInTheDocument();
+//   });
+
+//   test('check the text 2', () => {
+//     render(<App />);
+//     const linkElement = screen.getByText(/Hello World/i);
+//     expect(linkElement).toBeInTheDocument();
+//   });
+
+// })
+
+
+// =====================================================================
+// describe.skip()
+// it will skip this test
+// describe.skip("UI test case group 3", () => {
+//   test('check the text', () => {
+//     render(<App />);
+//     const linkElement = screen.getByText(/Hello World/i);
+//     expect(linkElement).toBeInTheDocument();
+//   });
+
+// })
+
+// ====================================================================
+// embedded describe
+
+describe("UI test case group 3", () => {
+  test('check the text', () => {
+    render(<App />);
+    const linkElement = screen.getByText(/Hello World/i);
+    expect(linkElement).toBeInTheDocument();
+  });
+
+  describe("UI test case group 3", () => {
+    test('check the text', () => {
+      render(<App />);
+      const linkElement = screen.getByText(/Hello World/i);
+      expect(linkElement).toBeInTheDocument();
+    });
+  
+  })
+
+})
