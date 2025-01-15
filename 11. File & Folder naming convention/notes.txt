@@ -1,0 +1,7 @@
+--> The following file name will be autodetect as a test file:
+o file_name.test.js
+o file_name.spec.js
+o file_name.spec.jsx
+
+--> The folder naming "__test__" and any file name kept within it ex: file_name.js, etc
+will be auto detect as the test files.
